@@ -7,21 +7,24 @@
     <title>Document</title>
     <script defer src="main.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/251665d536.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
+    <header class="flex">
         <h2 id="name" class="flex align-items">Elin Arntén</h2>
         
        
-        
     </header>
-    <main>
-        
-        <div id="main-content" class="flex justify-center align-items">
-           <img id="img-elin" src="/IMG/Elin Arnteen_270.jpg">
-           <div>
+    <main class="flex align-items justify-center">
+      
+        <div id="main-content" class="flex align-items justify-center">
+            
+            <img id="img-elin" src="/IMG/Elin Arnteen_270.jpg">
+             
+           <div id="text-content">
                <div id="main-intro">
-                    <h1>Hello,</h1> <br>
+                    <h1>Hello</h1> <br>
+                    <h3>A Bit About Me</h3> 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
                         Alias voluptatibus consequatur voluptas esse, voluptate at <br>
                         perferendis vero dolore, magnam corporis temporibus eveniet <br>
@@ -29,16 +32,30 @@
                </div>
 
                 <div id="nav-about" class="flex">
-                    <span class="dot" style="background-color: chocolate;">Resumé</span>
-                    <span class="dot" style="background-color: rgb(80, 126, 70);">Portfolio</span>
-                    <span class="dot" style="background-color: indianred;">About me</span>
+                    <span class="dot" style="background-color: rgb(228, 130, 60);">Resumé</span>
+                    <span class="dot" style="background-color: rgb(122, 148, 118);">Portfolio</span>
+                    <span class="dot" style="background-color: rgb(221, 109, 109);">About me</span>
                 </div>             
             </div>
 
         </div>
-    </main>
-    <footer>
        
+    </main>
+    <footer class="flex">
+       <div id="footer-content" class="flex align-items">
+           <div id="email-content">
+               <h4>Email</h4>
+               <p>elin.arnten@medieinstitutet.se</p>
+           </div>
+           <div id="social-media">
+               <h4>Find me</h4>
+               <i class="fab fa-github"></i>
+               <i class="fab fa-linkedin"></i>
+           </div>
+           <div id="copyright">
+               <p>&copy; 2021 Elin Arntén</p> <br>
+           </div>
+       </div>
     </footer>
 </body>
 </html>
