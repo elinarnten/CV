@@ -20,8 +20,13 @@ header {
     /*background-color: rgb(170, 189, 163);*/
 }
 #name {
+    width: 100%;
     margin: 2rem;
 }
+#menu {
+    display: none;
+}
+
 .dot {
     height: 90px;
     width: 90px;
@@ -70,5 +75,6 @@ header {
     #text-content {border-left: none;}
     #nav-about {flex-direction: column; align-items: center;}
     #footer-content {height: 12rem; flex-direction: column;}
-   .dot {height: 200px; width: 200px; font-size: 30px; font-weight: lighter;}
+    .dot {height: 200px; width: 200px; font-size: 30px; font-weight: lighter;}
+    #menu {width: 100%; color: black; font-size: 2rem; justify-content: flex-end; margin: 2rem;}
 }
