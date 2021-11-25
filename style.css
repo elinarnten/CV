@@ -19,6 +19,9 @@ header {
     background-color: white;
     /*background-color: rgb(170, 189, 163);*/
 }
+a {
+    text-decoration: none;
+}
 ::-webkit-scrollbar {
     width: 3px;
 }
