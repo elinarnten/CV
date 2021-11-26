@@ -1,6 +1,25 @@
-#education {
+#title {
+    margin-right: 25rem;
+    margin-left: 12rem;
+}
+#education-content {
     margin-left: 4rem;
 }
 #it-school, #malmo, #front-end  {
     padding-top: 3rem;
+}
+
+
+#page-title {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+}
+h3 {
+    font-weight: lighter;
+}
+#text-content {
+    padding-top: 0;
+    padding-left: 10px;
+    border: none; 
 }

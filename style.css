@@ -77,6 +77,6 @@ header {
     #nav-about {flex-direction: column; align-items: center;}
     #footer-content {height: 12rem; flex-direction: column;}
     .dot {height: 200px; width: 200px; font-size: 30px; font-weight: lighter;}
-    #mobile-menu { color: black; font-size: 1.5rem; justify-content: flex-end; padding: 1rem; display: block;}
+    #mobile-menu {color: black; font-size: 1.5rem; justify-content: flex-end; padding: 1rem; display: block;}
     #head-nav {display:none;}
 }
