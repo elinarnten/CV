@@ -3,7 +3,7 @@ html { height: 100%; }
 a {text-decoration: none;}
 ::-webkit-scrollbar {width: 3px;}
 ::-webkit-scrollbar-thumb{background-color: black; border-radius: 10px;}
-
+p {line-height: 1.6;}
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(243, 243, 243, 0.473);
@@ -23,6 +23,15 @@ header {
     margin: 2rem;
     width: 20rem;
     justify-content: space-between;
+}
+#resume:hover {
+    color: rgb(228, 130, 60);
+}
+#portfolio:hover {
+   color: rgb(122, 148, 118);
+}
+#aboutMe:hover {
+    color: rgb(221, 109, 109);
 }
 #mobile-menu {
     display: none;
@@ -54,7 +63,7 @@ header {
     height: 6rem;
     width: 100%;
     margin-left: 5rem;
-    margin-right: 4rem;
+    margin-right: 5rem;
     border-top: solid black;
     justify-content: space-around;
 }
@@ -71,11 +80,11 @@ header {
 
 @media screen and (max-width: 992px) {
     
-    #main-content{flex-direction: column; justify-content: center; flex-wrap: wrap; align-items: center;}
-    #main-intro {border-bottom: solid;}
+    #main-content{flex-direction: column; justify-content: center; flex-wrap: wrap; align-items: center; margin-top: 2rem;}
+    #main-intro {border-bottom: solid; margin: 2rem;}
     #text-content {border-left: none;}
     #nav-about {flex-direction: column; align-items: center;}
-    #footer-content {height: 12rem; flex-direction: column;}
+    #footer-content {height: 12rem; flex-direction: column; margin: 0; padding: 1rem; align-items: unset;}
     .dot {height: 200px; width: 200px; font-size: 30px; font-weight: lighter;}
     #mobile-menu {color: black; font-size: 1.5rem; justify-content: flex-end; padding: 1rem; display: block;}
     #head-nav {display:none;}

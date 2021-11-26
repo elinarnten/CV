@@ -1,15 +1,19 @@
-#title {
+#education-title {
     margin-right: 25rem;
     margin-left: 12rem;
+    font-size: 20px;
 }
-#education-content {
+#experience-title {
+    margin-right: 24rem;
+    margin-left: 12rem;
+    font-size: 20px;
+}
+#education-content, #experience-content {
     margin-left: 4rem;
 }
 #it-school, #malmo, #front-end  {
     padding-top: 3rem;
 }
-
-
 #page-title {
     margin-top: 3rem;
     margin-bottom: 5rem;
@@ -22,4 +26,13 @@ h3 {
     padding-top: 0;
     padding-left: 10px;
     border: none; 
+}
+#border {
+    border-bottom: solid black;
+    margin: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+footer {
+    margin-top: 2rem;
 }
