@@ -52,6 +52,7 @@ header {
     object-fit: cover;
     border-radius: 50%;
     margin-right: 15px; 
+    filter: grayscale(100%);
 }
 #text-content {
     border-left: solid;

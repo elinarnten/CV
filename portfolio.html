@@ -7,28 +7,59 @@
     <title>Portfolio</title>
     <script defer src="main.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio.css">
     <script src="https://kit.fontawesome.com/251665d536.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="flex">
-        <h2 id="name" class="flex align-items">Elin Arntén</h2>
+        <h2 id="name" class="flex align-items">E.A.</h2>
         <div id="head-nav" class="flex align-items">
-            <a href="http://127.0.0.1:5501/resume.html" style="color: black;"><p>Resumé</p></a>
+            <a href="http://127.0.0.1:5501/resume.html" style="color: black;"><p id="resume">Resumé</p></a>
             <p>|</p>
-            <a href="http://127.0.0.1:5501/portfolio.html" style="color: black;"><p>Portfolio</p></a>
+            <a href="http://127.0.0.1:5501/portfolio.html" style="color: rgb(122, 148, 118);"><p id="portfolio">Portfolio</p></a>
             <p>|</p>
-            <p>About Me</p>
+            <p id="aboutMe">About Me</p>
         </div>
         <div class="flex align-items" id="mobile-menu">
             <i class="fas fa-bars"></i>
         </div>
         
     </header>
-    <main class="flex align-items justify-center height">
+    <main>
+
+        <div id="page-title">
+            <h1>Portfolio</h1>
+        </div>
       
-        <div id="main-content" class="flex align-items justify-center height">
-     
-           <h1 class="flex column">Coming soon..</h1>
+        <div id="main-content" >
+            <div id="item-1" class="flex">
+                <div id="item-text">
+                    <h3>Interactive world</h3> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+                        Similique dolores quae culpa ex sed nesciunt dolorum dicta, <br>
+                        quia hic. Provident, ea? Nostrum corporis modi ipsam, <br>
+                        numquam doloribus voluptatum! Debitis, expedita.</p>
+                        <a href="https://elinarnten.github.io/Laboration1/">Demo!</a>
+                </div>
+
+                <div id="item1-image" class="justify-content align-items">
+                    <img src="IMG/Skärmbild 2021-11-28 180124.png">
+                </div>
+            </div>
+
+           <div id="item-2">
+                <div>
+                    <h3>Lorem ipsum</h3> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+                        Similique dolores quae culpa ex sed nesciunt dolorum dicta, <br>
+                        quia hic. Provident, ea? Nostrum corporis modi ipsam, <br>
+                        numquam doloribus voluptatum! Debitis, expedita.</p>
+                </div>
+
+                <div id="item-image">
+
+                </div>
+           </div>
       
         </div>
        

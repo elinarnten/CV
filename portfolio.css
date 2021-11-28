@@ -1,0 +1,27 @@
+#page-title {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+}
+#item-text {
+    width: 100%;
+}
+#item-1, #item-2 {
+    background-color: rgb(122, 148, 118);
+    color:cornsilk ;
+    margin: 3rem;
+    padding: 2rem;
+    
+}
+#item1-image img{
+    
+    border: cornsilk solid;
+    height: 10rem
+}
+#item-text a {
+    background-color: cornsilk;
+    color: rgb(122, 148, 118);
+}
+footer {
+    margin-top: 2rem;
+}
