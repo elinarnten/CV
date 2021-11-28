@@ -64,7 +64,8 @@ header {
     width: 100%;
     margin-left: 5rem;
     margin-right: 5rem;
-    border-top: solid black;
+    border-top: solid;
+    border-width: 1px;
     justify-content: space-around;
 }
 #social-media i {font-size: 20px; padding-right: 1rem;}

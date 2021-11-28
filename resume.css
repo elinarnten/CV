@@ -24,15 +24,22 @@ h3 {
 }
 #text-content {
     padding-top: 0;
-    padding-left: 10px;
+    padding: 10px;
     border: none; 
+    border-radius: 12px;
 }
 #border {
-    border-bottom: solid black;
+    border-bottom: solid;
     margin: 2rem;
     margin-left: 5rem;
     margin-right: 5rem;
+    border-width: 1px;
 }
 footer {
     margin-top: 2rem;
+}
+@media screen and (max-width: 992px) {
+    #text-content {flex-direction: column; justify-content: center; align-items: center;}
+    #education-title, #experience-title {margin-bottom: 1rem;}
+    #border {margin-left: 0; margin-right: 0;}
 }
