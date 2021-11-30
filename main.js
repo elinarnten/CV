@@ -1,7 +1,21 @@
-window.addEventListener('load', main);
+window.onload = main;
 
 function main() {
-    getAboutList();
-    hide();
+   addEventListeners();
+}
+function addEventListeners() {
+
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenu.onclick = getMenu;
+    
 }
 
+function getMenu() {
+
+}
+function getResume() {
+
+}
+function getPortfolio() {
+
+}
