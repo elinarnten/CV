@@ -31,12 +31,13 @@ header {
 #name {
     width: 100%;
     margin: 2rem;
+    
 }
 #head-nav {
     margin: 2rem;
     width: 20rem;
     justify-content: space-between;
-    transition: color 0.4s ease 0s;
+    
 }
 
 #resume:hover {color: rgb(228, 130, 60);}
