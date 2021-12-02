@@ -16,7 +16,10 @@
 #item1-image img{
     
     border: whitesmoke solid;
-    height: 10rem
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    
 }
 #item1-text a {
     background-color: whitesmoke;
