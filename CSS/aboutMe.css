@@ -4,7 +4,7 @@
     margin-left: 3rem;
 }
 #aboutMe-text  {
-    padding: 1rem;
+    padding: 1.5rem;
     color: whitesmoke;
 }
 #goat-gif {
@@ -12,4 +12,8 @@
 }
 #main-content {
     margin-bottom: 2rem;
+}
+@media screen and (max-width: 900px) {
+    #goat-gif{margin: 2rem;}
+    #page-title{margin-bottom: 2rem;}
 }

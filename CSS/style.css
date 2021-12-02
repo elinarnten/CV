@@ -31,15 +31,16 @@ header {
 #name {
     width: 100%;
     margin: 2rem;
-    
+    cursor: pointer;
 }
 #head-nav {
     margin: 2rem;
     width: 20rem;
     justify-content: space-between;
-    
 }
-
+#resume, #portfolio, #aboutMe {
+    cursor: pointer;
+}
 #resume:hover {color: rgb(228, 130, 60);}
 #portfolio:hover {color: rgb(122, 148, 118);}
 #aboutMe:hover {color: rgb(221, 109, 109);}
@@ -47,6 +48,7 @@ header {
 #mobile-menu {
     display: none;
 }
+
 .dot {
     height: 90px;
     width: 90px;
@@ -80,9 +82,30 @@ header {
     border-width: 1px;
     justify-content: space-around;
 }
-#social-media i {font-size: 20px; padding-right: 1rem;}
+#social-media i {
+    font-size: 20px; 
+    padding-right: 1rem;}
 
-
+#nav-links{
+    margin: 3rem;
+    color: whitesmoke;
+}
+#nav-links p {
+    color: whitesmoke;
+    padding: 1rem;
+}
+#mobile-menu-nav {
+    background-color: rgb(93, 123, 150);
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform:translateX(100%);
+    transition: all 500ms;
+}
+#mobile-menu-nav.show {
+    transform:translateX(0);
+}
 /*Reuseable classes*/
 .flex {display: flex;}
 .align-items {align-items: center;}
@@ -101,4 +124,5 @@ header {
     .dot {height: 200px; width: 200px; font-size: 30px; font-weight: lighter;}
     #mobile-menu {color: black; font-size: 1.5rem; justify-content: flex-end; padding: 1rem; display: block;}
     #head-nav {display:none;}
+    
 }
