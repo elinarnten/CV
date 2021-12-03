@@ -10,6 +10,7 @@ body {
     background-color: rgba(243, 243, 243, 0.473);
     min-height: 100%;
     
+    
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -41,9 +42,15 @@ header {
 #resume, #portfolio, #aboutMe {
     cursor: pointer;
 }
-#resume:hover {color: rgb(228, 130, 60);}
-#portfolio:hover {color: rgb(122, 148, 118);}
-#aboutMe:hover {color: rgb(221, 109, 109);}
+#resume:hover {
+    color: rgb(228, 130, 60);
+}
+#portfolio:hover {
+    color: rgb(122, 148, 118);
+}
+#aboutMe:hover {
+    color: rgb(221, 109, 109);
+}
 
 #mobile-menu {
     display: none;
@@ -102,6 +109,7 @@ header {
     bottom: 0;
     transform:translateX(100%);
     transition: all 500ms;
+    z-index: 100;
 }
 #mobile-menu-nav.show {
     transform:translateX(0);
