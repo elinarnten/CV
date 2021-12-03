@@ -48,7 +48,6 @@ function hideMenu() {
  * This function will get the user to resume page
  */
 function getResume() {
-    //window.location.href = "http://127.0.0.1:5501/resume.html";
     window.location.href = "https://elinarnten.github.io/Laboration2/resume.html"
 }
 
@@ -56,7 +55,6 @@ function getResume() {
  * This function will get the user to portfolio page
  */
 function getPortfolio() {
-    //window.location.href = "http://127.0.0.1:5501/portfolio.html";
     window.location.href = "https://elinarnten.github.io/Laboration2/portfolio.html"
 }
 
@@ -64,7 +62,6 @@ function getPortfolio() {
  * This function will get the user to About me page
  */
 function getAboutMe() {
-    //window.location.href = "http://127.0.0.1:5501/aboutMe.html";
     window.location.href = "https://elinarnten.github.io/Laboration2/aboutMe.html"
 }
 
@@ -72,6 +69,5 @@ function getAboutMe() {
  * This function will get the user to start page
  */
 function getStartPage() {
-    //window.location.href = "http://127.0.0.1:5501/index.html";
     window.location.href = "https://elinarnten.github.io/Laboration2/"
 }
