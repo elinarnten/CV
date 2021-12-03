@@ -13,7 +13,9 @@
 #main-content {
     margin-bottom: 2rem;
 }
-@media screen and (max-width: 900px) {
-    #goat-gif{margin: 2rem;}
+@media screen and (max-width: 992px) {
+    #goat-gif{margin: 2rem; margin-left: 0; margin-right: 0;}
     #page-title{margin-bottom: 2rem;}
+    #main-content{flex-direction: column; margin: 5px; margin-bottom: 2rem;}
+    #aboutMe-text{padding: 1rem; flex-direction: column;}
 }
