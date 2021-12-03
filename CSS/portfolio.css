@@ -3,7 +3,7 @@
     margin-bottom: 5rem;
     margin-left: 3rem;
 }
-#item1-text {
+#item1-text, #item2-text {
     width: 100%;
 }
 #item-1, #item-2 {
@@ -14,12 +14,17 @@
     
 }
 #item1-image img{
-    
     border: whitesmoke solid;
     width: 100%;
     max-width: 400px;
     height: auto;
     
+}
+#item2-image img{
+    border: whitesmoke solid;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 #item1-text a {
     background-color: whitesmoke;
@@ -30,5 +35,4 @@ footer {
 }
 @media screen and (max-width: 900px) {
     #item-1, #item-2{flex-direction: column; justify-content: center; align-items: center;}
-    #item1-image img {width: auto;}
 }
