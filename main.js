@@ -9,8 +9,8 @@ function addEventListeners() {
     const myName = document.getElementById('name');
     myName.onclick = getStartPage;
 
-    const mobileMenu = document.getElementById('mobile-menu');
-    mobileMenu.onclick = showMenu;
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    mobileMenuButton.onclick = showMenu;
 
     const resume = document.getElementById('resume');
     resume.onclick = getResume;
