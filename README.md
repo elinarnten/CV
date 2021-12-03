@@ -2,7 +2,9 @@
 
 **Uppgiften**
 
-I denna uppgift ska jag skapa ett interaktiv digitalt CV. Här ska man presentera sig själv och sina kunskaper. Uppgiften är fri och man väljer själv vad man vill lyfta fram och hur den ska se ut. Det är viktigt att sidan ska vara responsiv eftersom framtida arbetsgivare kan komma besöka sidan via mobil. 
+I denna uppgift ska jag skapa ett interaktiv digitalt CV. Här ska man presentera sig själv och sina kunskaper. <br/>
+Uppgiften är fri och man väljer själv vad man vill lyfta fram och hur den ska se ut. Det är viktigt att sidan ska vara <br/>
+responsiv eftersom framtida arbetsgivare kan komma besöka sidan via mobil. 
 
 
 Istället att lägga all innehåll på en sida så har jag valt att dela upp mitt CV på egna sidor. <br/>
