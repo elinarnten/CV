@@ -35,11 +35,14 @@ function getResume() {
     window.location.href = "https://elinarnten.github.io/Laboration2/resume.html"
 }
 function getPortfolio() {
-    window.location.href = "http://127.0.0.1:5501/portfolio.html";
+    //window.location.href = "http://127.0.0.1:5501/portfolio.html";
+    window.location.href = "https://elinarnten.github.io/Laboration2/portfolio.html"
 }
 function getAboutMe() {
-    window.location.href = "http://127.0.0.1:5501/aboutMe.html";
+    //window.location.href = "http://127.0.0.1:5501/aboutMe.html";
+    window.location.href = "https://elinarnten.github.io/Laboration2/aboutMe.html"
 }
 function getStartPage() {
-    window.location.href = "http://127.0.0.1:5501/index.html";
+    //window.location.href = "http://127.0.0.1:5501/index.html";
+    window.location.href = "https://elinarnten.github.io/Laboration2/"
 }
