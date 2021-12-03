@@ -31,7 +31,8 @@ function hideMenu() {
     document.getElementById('mobile-menu-nav').classList.remove('show');
 }
 function getResume() {
-    window.location.href = "http://127.0.0.1:5501/resume.html";
+    //window.location.href = "http://127.0.0.1:5501/resume.html";
+    window.location.href = "https://elinarnten.github.io/Laboration2/resume.html"
 }
 function getPortfolio() {
     window.location.href = "http://127.0.0.1:5501/portfolio.html";
