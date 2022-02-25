@@ -48,26 +48,26 @@ function hideMenu() {
  * This function will get the user to resume page
  */
 function getResume() {
-    window.location.href = "https://elinarnten.github.io/Laboration2/resume.html"
+    window.location.href = "https://elinarnten.github.io/CV/resume.html"
 }
 
 /**
  * This function will get the user to portfolio page
  */
 function getPortfolio() {
-    window.location.href = "https://elinarnten.github.io/Laboration2/portfolio.html"
+    window.location.href = "https://elinarnten.github.io/CV/portfolio.html"
 }
 
 /**
  * This function will get the user to About me page
  */
 function getAboutMe() {
-    window.location.href = "https://elinarnten.github.io/Laboration2/aboutMe.html"
+    window.location.href = "https://elinarnten.github.io/CV/aboutMe.html"
 }
 
 /**
  * This function will get the user to start page
  */
 function getStartPage() {
-    window.location.href = "https://elinarnten.github.io/Laboration2/"
+    window.location.href = "https://elinarnten.github.io/CV/"
 }
