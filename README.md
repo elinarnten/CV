@@ -14,4 +14,4 @@ I 'About Me' är det lite gott och blandat med information om just mig. <br/>
 Längst ner på botten finns det kontakt information och länkar till min Github och Linkedin profil.
 
 
-[Demo](https://elinarnten.github.io/Laboration2/)
+[Demo](https://elinarnten.github.io/CV/)
