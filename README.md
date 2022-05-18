@@ -13,5 +13,7 @@ I 'Resumé' är det information om mina tidigare utbildningar samt arbetserfaren
 I 'About Me' är det lite gott och blandat med information om just mig. <br/>
 Längst ner på botten finns det kontakt information och länkar till min Github och Linkedin profil.
 
+Designen på mitt CV speglar min stil. Jag gillar minimalistisk, tidslöst och "mjuka" färger, vilket CVn innehåller.
+
 
 [Demo](https://elinarnten.github.io/CV/)
